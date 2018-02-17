@@ -1,0 +1,11 @@
+h1, dfn {
+    color: #3f87a6;
+} 
+
+dfn {
+    font-weight: bold;
+}
+
+dfn::after {
+    content: ": "
+}
